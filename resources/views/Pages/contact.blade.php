@@ -3,7 +3,7 @@
 @section('content')
     <h1>contact</h1>
 
-    <form role="form" id="contact-form" class="contact-form" method="POST" action="{{routegit commit 'adding laravel files'('contact.store')}}">
+    <form role="form" id="contact-form" class="contact-form" method="POST" action="{{route('contact.store')}}">
 
         {{ csrf_field() }}
 
