@@ -19,6 +19,7 @@ class DeleteCarTest extends TestCase
         $car->Make = 'Honda';
         $car->Model = 'Accord';
         $car->Year = '2000';
+        $car->save();
         $this->assertTrue($car->delete());
     }
 }
