@@ -18,7 +18,7 @@ class InsertCarTest extends TestCase
         $car = new Car();
         $car->Make = 'Toyota';
         $car->Model = 'Camry';
-        $car->Year = '2012';
+        $car->Year = '2013';
 
         $this->assertTrue($car->save());
     }
