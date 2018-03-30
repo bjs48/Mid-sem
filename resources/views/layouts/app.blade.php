@@ -23,20 +23,7 @@
 <body>
 
 
-<div class="content-wrapper">
 
-    <!-- Add your site or application content here -->
-    <header>
-        @include('includes.menu')
-    </header>
-    <!-- Content Header (Page header) -->
-    @yield('content')
-
-
-    <footer class="main-footer">
-        @include('includes.footer')
-    </footer>
-</div>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
